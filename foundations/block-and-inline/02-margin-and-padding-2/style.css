@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +13,42 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  
+  width: 600px;
+  padding: 12px;
 }
 
 .title {
   background: #e3f4ff;
+  
+  padding: 18px;
+  margin: 12px 0;
+  font-size: 18px;
 }
 
 .content {
   background: #e3f4ff;
+
+  padding: 24px 12px;
+  margin: 12px 0;
+  font-size: 22px;
 }
 
 .button-container {
   background: #e3f4ff;
+
+  margin: 12px 0 0 0;
+  padding: 12px;
+  font-size: 22px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  
+  display: block;
+  margin: 0 auto;
+  font-size: 22px;
+  padding: 8px 24px;
 }
